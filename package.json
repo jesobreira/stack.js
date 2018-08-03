@@ -1,0 +1,29 @@
+{
+  "name": "stack.js",
+  "version": "1.0.0",
+  "description": "Stack for Javascript",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "build": "tsc src/index.ts && mv src/index.js ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesobreira/stack.js.git"
+  },
+  "keywords": [
+    "stack",
+    "push",
+    "pop",
+    "cpp"
+  ],
+  "author": "Jefrey S. Santos <jefrey.santos@capitual.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesobreira/stack.js/issues"
+  },
+  "homepage": "https://github.com/jesobreira/stack.js#readme",
+  "devDependencies": {
+    "localstorage-ponyfill": "^1.0.1"
+  }
+}
