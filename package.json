@@ -1,5 +1,5 @@
 {
-  "name": "stack.js",
+  "name": "stacked.js",
   "version": "1.0.0",
   "description": "Stack for Javascript",
   "main": "./index.js",

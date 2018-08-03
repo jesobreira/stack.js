@@ -1,7 +1,7 @@
-stack.js
+stacked.js
 ========
 
-Stack implementation in TypeScript for Node and the browser.
+Stacked implementation in TypeScript for Node and the browser.
 
 Stacks are data containers that can only be accessed (read or modified) at the top. This library enables you to use and manage stacks, limited or not, persistent or not.
 
@@ -9,7 +9,7 @@ Installing
 ----------
 
 ```bash
-npm i stack.js
+npm i stacked.js
 ```
 
 Usage
@@ -18,19 +18,19 @@ Usage
 On **Node** (ES5):
 
 ```javascript
-const stackJS = require('stack.js')
+const stackJS = require('stacked.js')
 ```
 
 On **Node** (ES6+):
 
 ```javascript
-import stackJS from 'stack.js'
+import stackJS from 'stacked.js'
 ```
 
 On **browsers** (locally):
 
 ```html
-<script src="node_modules/stack.js/index.js"></script>
+<script src="node_modules/stacked.js/index.js"></script>
 ```
 
 On **browsers** (CDN):
@@ -42,7 +42,7 @@ Example
 -------
 
 ```javascript
-const stackJS = require('../')
+const stackJS = require('stacked.js')
 
 // Standard unlimited stack
 let myStack = new stackJS()
